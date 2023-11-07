@@ -6,6 +6,9 @@ export default function MyForm() {
     const[phone,setPhone] = useState("");
     const[email,setEmail] = useState("");
     const[address,setAddress] = useState("");
+    console.log(name);
+    console.log(phone);
+    console.log(email);
   return (
     <div>
         <h1>Entry Form</h1>
