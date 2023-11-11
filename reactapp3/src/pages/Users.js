@@ -9,11 +9,13 @@ export default function Users() {
     
       const [isuser, setuser] = useState([]);
       const alluser = async (ids) => {
+        try {
           axios.get(`http://localhost/wdpf_react/reactapp3/api/users.php`)
           .then(res => {
             console.log(res.data.userlist)
             setuser(res.data.userlist);
-          })   
+          })  
+        } catch (error) { throw error;}  
       }
       const deleteconfirm = (id)=>{
         if(window.confirm("Are you sure to delete?")){
@@ -22,6 +24,7 @@ export default function Users() {
         // alert(id)
       }
       const deleteUser = async (id) => {
+        try {
           axios.post(`http://localhost/wdpf_react/reactapp3/api/delete.php`, { 
             userids: id,
           })
@@ -30,6 +33,7 @@ export default function Users() {
             alluser();
             return;
            }) 
+        } catch (error) { throw error;} 
       }
   return (
     <>
@@ -41,8 +45,8 @@ export default function Users() {
                     <tr>
                         <th>SN</th>
                         <th>Name</th>
-                        <th>Phone</th>
                         <th>Email</th>
+                        <th>Date</th>
                         <th>Action</th>
                     </tr>
                 </thead>
