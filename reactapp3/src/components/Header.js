@@ -119,9 +119,8 @@ export default function Header() {
                     </Link>
                   </div>
                 </div>
-                <Link href="contact.html" className="nav-item nav-link">
-                  Contact
-                </Link>
+                <Link href="contact.html" className="nav-item nav-link">Contact</Link>
+                <Link to="/users" className="nav-item nav-link">Users</Link>
               </div>
             </div>
           </nav>
