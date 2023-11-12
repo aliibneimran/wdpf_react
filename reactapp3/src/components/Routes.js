@@ -7,6 +7,7 @@ import NoPage from '../pages/NoPage'
 import UseState from '../pages/UseState'
 import UseEffect from '../pages/UseEffect'
 import UseContext from '../pages/UseContext'
+import Users from '../pages/Users'
 
 export default function Main() {
   return (
@@ -20,6 +21,7 @@ export default function Main() {
             <Route path='/usestate' element={<UseState/>}></Route>
             <Route path='/useeffect' element={<UseEffect/>}></Route>
             <Route path='/usecontext' element={<UseContext/>}></Route>
+            <Route path='/users' element={<Users/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
