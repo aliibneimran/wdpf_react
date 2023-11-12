@@ -1,5 +1,6 @@
 import React, {useEffect,useState}  from 'react'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function Users() {
     useEffect( () => {
@@ -35,10 +36,12 @@ export default function Users() {
            }) 
         } catch (error) { throw error;} 
       }
+      if(isuser){
   return (
     <>
         <div className="container">
             <h1>Users List</h1>
+            <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br />
             
             <table className='table table-striped table-dark'>
                 <thead>
@@ -54,7 +57,7 @@ export default function Users() {
                     {
                         isuser.map((item,index)=>
 
-                        <tr key={index}>
+                        <tr>
                             <td>{index+1}</td>
                             <td>{item.name}</td>
                             <td>{item.email}</td>
@@ -64,10 +67,17 @@ export default function Users() {
                         )
                     }
                 </tbody>
-            </table>     
+            </table>   
 
         </div>
     </>
-   
   )
+}else{
+  return(
+    <div className='container'>
+      <h1>No Data Found</h1>
+      <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br />
+    </div>
+  )
+}
 }

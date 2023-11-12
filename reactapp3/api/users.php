@@ -1,8 +1,8 @@
 <?php
 require 'db_connection.php';
-	$allUsers = mysqli_query($db_conn,"SELECT * FROM user");
+	$allUsers = $db->query("SELECT * FROM user");
 		if(mysqli_num_rows($allUsers) > 0){
-			while($row = mysqli_fetch_array($allUsers)){
+			while($row = $allUsers->fetch_array()){
 				$viewjson["user_id"] = $row['user_id'];
 				$viewjson["name"] = $row['name'];
 				$viewjson["email"] = $row['email'];

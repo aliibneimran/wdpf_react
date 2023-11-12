@@ -8,6 +8,7 @@ import UseState from '../pages/UseState'
 import UseEffect from '../pages/UseEffect'
 import UseContext from '../pages/UseContext'
 import Users from '../pages/Users'
+import Insert from '../pages/Insert'
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
             <Route path='/useeffect' element={<UseEffect/>}></Route>
             <Route path='/usecontext' element={<UseContext/>}></Route>
             <Route path='/users' element={<Users/>}></Route>
+            <Route path='/entry' element={<Insert/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
