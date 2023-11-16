@@ -3,9 +3,7 @@ require 'db_connection.php';
 
 $data = json_decode(file_get_contents("php://input"));
 
-if(isset($data->userids) 
-	&& !empty(trim($data->userids))
-	){
+if(isset($data->userids) && !empty(trim($data->userids))){
 		
 	$userids = $db->real_escape_string(trim($data->userids));
 
