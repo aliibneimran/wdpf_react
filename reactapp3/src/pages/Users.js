@@ -1,6 +1,7 @@
 import React, {useEffect,useState}  from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Insert from './Insert';
 
 export default function Users() {
     useEffect( () => {
@@ -41,7 +42,7 @@ export default function Users() {
     <>
         <div className="container">
             <h1>Users List</h1>
-            <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br />
+            {/* <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br /> */}
             
             <table className='table table-striped table-dark'>
                 <thead>
@@ -54,7 +55,7 @@ export default function Users() {
                     </tr>
                 </thead>
                 <tbody>
-                    {
+                    { 
                         isuser.map((item,index)=>
 
                         <tr>
@@ -62,12 +63,22 @@ export default function Users() {
                             <td>{item.name}</td>
                             <td>{item.email}</td>
                             <td>{item.date}</td>
-                            <td><button onClick={()=>deleteconfirm(item.user_id)} className='btn btn-danger'>Delete</button></td>
+                            <td>
+                              <button onClick={()=>deleteconfirm(item.user_id)} className='mx-3 btn btn-danger'>Delete</button>
+                              <button className='btn btn-primary'>Edit</button>
+                            </td>
                         </tr>
                         )
                     }
                 </tbody>
-            </table>   
+            </table>
+            <br />
+<Insert></Insert>
+            {/* <form action="" onSubmit={handleSubmit} className='form-control'>
+              <input type="text" className='form-control' name='name' placeholder='Enter Your Name' value={userInfo.name} onChange={handleChange}/><br/>
+              <input type="email" className='form-control' name='email' placeholder='Enter Your Email'  value={userInfo.email} onChange={handleChange}/><br/>
+              <button name='submit' className='btn btn-success'>Submit</button>
+            </form> */}
 
         </div>
     </>
