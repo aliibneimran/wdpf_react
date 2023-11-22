@@ -42,7 +42,7 @@ export default function Users() {
     <>
         <div className="container">
             <h1>Users List</h1>
-            {/* <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br /> */}
+            <Link to="/entry" className='btn btn-success'>Add New</Link>  <br/><br />
             
             <table className='table table-striped table-dark'>
                 <thead>
@@ -73,12 +73,7 @@ export default function Users() {
                 </tbody>
             </table>
             <br />
-<Insert></Insert>
-            {/* <form action="" onSubmit={handleSubmit} className='form-control'>
-              <input type="text" className='form-control' name='name' placeholder='Enter Your Name' value={userInfo.name} onChange={handleChange}/><br/>
-              <input type="email" className='form-control' name='email' placeholder='Enter Your Email'  value={userInfo.email} onChange={handleChange}/><br/>
-              <button name='submit' className='btn btn-success'>Submit</button>
-            </form> */}
+          {/* <Insert></Insert> */}
 
         </div>
     </>
