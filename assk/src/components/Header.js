@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <>
+    <div className='fixed-top'>
       {/* <!--======= TOP BAR =========--> */}
       <div className="top-bar">
         <div className="container">
@@ -29,19 +30,19 @@ export default function Header() {
           </ul>
           <ul className="right-bar-side social_icons">
             <li className="facebook">
-              
+
               <Link to="https://www.facebook.com/asskamariway">
                 <i className="fa fa-facebook"></i>
               </Link>
             </li>
             <li className="twitter">
-              
+
               <Link to="/">
                 <i className="fa fa-twitter"></i>
               </Link>
             </li>
             <li className="linkedin">
-              
+
               <Link to="/">
                 <i className="fa fa-linkedin"></i>
               </Link>
@@ -51,7 +52,7 @@ export default function Header() {
       </div>
 
       {/* <!--======= HEADER =========--> */}
-      <header className="sticky">
+      <header className="navbar-sticky">
         <div className="container">
           {/* <!--======= LOGO =========--> */}
           <div className="logo">
@@ -132,7 +133,7 @@ export default function Header() {
 
             {/* <!--======= SUBMIT COUPON =========--> */}
             <div className="sub-nav-co">
-              
+
               <Link to="#.">
                 <i className="fa fa-search"></i>
               </Link>
@@ -140,6 +141,7 @@ export default function Header() {
           </nav>
         </div>
       </header>
+    </div>
     </>
   )
 }
