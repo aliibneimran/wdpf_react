@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ReadyFlat() {
   return (
@@ -10,7 +11,6 @@ export default function ReadyFlat() {
         <div className="container">
           {/* <!--======= TITTLE =========--> */}
           <div className="tittle">
-            {" "}
             <img src="images/head-top.png" alt="" />
             <h3>Our Ready Project</h3>
             <p>See the ready projects of ASSK</p>
@@ -25,7 +25,6 @@ export default function ReadyFlat() {
               <section>
                 {/* <!--======= IMAGE =========--> */}
                 <div className="z-hover img">
-                  {" "}
                   <img
                     className="img-responsive"
                     src="assets/images/project/m-anchal-featured.jpg"
@@ -33,10 +32,9 @@ export default function ReadyFlat() {
                   />
                   {/* <!--======= IMAGE HOVER =========--> */}
                   <div className="over-proper">
-                    {" "}
-                    <a href="mayer-anchal.php" className="btn font-montserrat">
+                    <Link to="/single" className="btn font-montserrat">
                       more details
-                    </a>{" "}
+                    </Link>
                   </div>
                 </div>
                 {/* <!--======= HOME INNER DETAILS =========--> */}
@@ -59,13 +57,12 @@ export default function ReadyFlat() {
                 </ul>
                 {/* <!--======= HOME DETAILS =========--> */}
                 <div className="detail-sec">
-                  {" "}
-                  <a href="mayer-anchal.php" className="font-montserrat">
+                  <Link to="mayer-anchal.php" className="font-montserrat">
                     Mayer Anchal
-                  </a>{" "}
+                  </Link>
                   <span className="locate">
                     <i className="fa fa-map-marker"></i>Jagannathpur Shaheed
-                    Abdul Aziz Sarak, Vatara, Dhaka{" "}
+                    Abdul Aziz Sarak, Vatara, Dhaka
                   </span>
                   {/* <!-- <p>Till the one day when the lady met this fellow and they knew it was much more than </p> --> */}
                 </div>
@@ -86,10 +83,9 @@ export default function ReadyFlat() {
                   />
                   {/* <!--======= IMAGE HOVER =========--> */}
                   <div className="over-proper">
-                    {" "}
-                    <a href="sas-castle.php" className="btn font-montserrat">
+                    <Link to="sas-castle.php" className="btn font-montserrat">
                       more details
-                    </a>{" "}
+                    </Link>
                   </div>
                 </div>
                 {/* <!--======= HOME INNER DETAILS =========--> */}
@@ -113,9 +109,9 @@ export default function ReadyFlat() {
                 {/* <!--======= HOME DETAILS =========--> */}
                 <div className="detail-sec">
                   {" "}
-                  <a href="sas-castle.php" className="font-montserrat">
+                  <Link to="sas-castle.php" className="font-montserrat">
                     The SAS Castle
-                  </a>{" "}
+                  </Link>{" "}
                   <span className="locate">
                     <i className="fa fa-map-marker"></i> Queen's Garden,
                     Nurerchala, Vatara, Baridhara, Dhaka.{" "}
@@ -132,7 +128,6 @@ export default function ReadyFlat() {
               <section>
                 {/* <!--======= IMAGE =========--> */}
                 <div className="z-hover img">
-                  {" "}
                   <img
                     className="img-responsive"
                     src="assets/images/project/d-dream-featured.jpg"
@@ -140,10 +135,9 @@ export default function ReadyFlat() {
                   />
                   {/* <!--======= IMAGE HOVER =========--> */}
                   <div className="over-proper">
-                    {" "}
-                    <a href="d-dream.php" className="btn font-montserrat">
+                    <Link to="d-dream.php" className="btn font-montserrat">
                       more details
-                    </a>{" "}
+                    </Link>
                   </div>
                 </div>
                 {/* <!--======= HOME INNER DETAILS =========--> */}
@@ -166,10 +160,9 @@ export default function ReadyFlat() {
                 </ul>
                 {/* <!--======= HOME DETAILS =========--> */}
                 <div className="detail-sec">
-                  {" "}
-                  <a href="d-dream.php" className="font-montserrat">
+                  <Link to="d-dream.php" className="font-montserrat">
                     D Dream
-                  </a>{" "}
+                  </Link>
                   <span className="locate">
                     <i className="fa fa-map-marker"></i> Queen's Garden,
                     Nurerchala Baridhara, Vatara, Dhaka.
@@ -181,10 +174,9 @@ export default function ReadyFlat() {
           </ul>
         </div>
         <div className="custom-btn">
-          {" "}
-          <a href="projects.php" className="load-more font-montserrat">
+          <Link to="projects.php" className="load-more font-montserrat">
             See More Project
-          </a>{" "}
+          </Link>
         </div>
       </section>
     </>
