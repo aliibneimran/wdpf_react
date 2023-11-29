@@ -1,11 +1,19 @@
 import React from 'react'
+import Slider from "react-slick";
 
-export default function Slider() {
+export default function Sliders() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
   return (
     <>
     {/* <!-- SLIDER AREA START (slider-3) --> */}
-    <div className="ltn__slider-area ltn__slider-3  section-bg-2">
-        <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
+    <div className="  section-bg-2">
+        <Slider {...settings} className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
             {/* <!-- ltn__slide-item --> */}
             <div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="assets/img/slider/11.jpg">
                 <div className="ltn__slide-item-inner text-center">
@@ -80,7 +88,7 @@ export default function Slider() {
                     </div>
                 </div>
             </div>
-        </div>
+        </Slider>
     </div>
     {/* <!-- SLIDER AREA END --> */}
     </>

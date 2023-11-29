@@ -25,9 +25,11 @@ export default function Locations() {
           </div>
           {/* BREADCRUMB AREA END */}
           {/* GOOGLE MAP LOCATIONS AREA START */}
-          <div className="ltn__google-map-locations-area">
+
+          {/* <div className="ltn__google-map-locations-area">
               <div id="gmap" />
-          </div>
+          </div> */}
+          
           {/* GOOGLE MAP LOCATIONS AREA END */}
           {/* GOOGLE MAP LOCATIONS LIST AREA START */}
           <div className="ltn__google-map-locations-list-area mt-115 mb-70">

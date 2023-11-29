@@ -66,7 +66,7 @@ export default function Header() {
                             <div className="col">
                                 <div className="site-logo-wrap">
                                     <div className="site-logo">
-                                        <Link  to="/index"><img src="assets/img/logo-2.png" alt="Logo" /></Link>
+                                        <Link  to="/"><img src="assets/img/logo-2.png" alt="Logo" /></Link>
                                     </div>
                                     <div className="get-support clearfix d-none">
                                         <div className="get-support-icon">
@@ -84,7 +84,7 @@ export default function Header() {
                                     <nav>
                                         <div className="ltn__main-menu">
                                             <ul>
-                                                <li><Link  to="/#">Home</Link></li>
+                                                <li><Link  to="/">Home</Link></li>
                                                 <li className="menu-icon"><Link  to="/about">About</Link>
                                                     <ul>
                                                         <li><Link  to="/about">About</Link></li>
@@ -253,7 +253,7 @@ export default function Header() {
                 <div className="ltn__utilize-menu-inner ltn__scrollbar">
                     <div className="ltn__utilize-menu-head">
                         <div className="site-logo">
-                            <Link  to="/index"><img src="assets/img/logo.png" alt="Logo" /></Link>
+                            <Link  to="/"><img src="assets/img/logo.png" alt="Logo" /></Link>
                         </div>
                         <button className="ltn__utilize-close">×</button>
                     </div>
@@ -265,10 +265,9 @@ export default function Header() {
                     </div>
                     <div className="ltn__utilize-menu">
                         <ul>
-                            <li><Link  to="/">Home</Link></li>
+                            <li><Link  to="/about">Home</Link></li>
                             <li><Link  to="/about">About</Link>
                                 <ul className="sub-menu">
-                                    <li><Link  to="/about">About</Link></li>
                                     <li><Link  to="/service">Services</Link></li>
                                     <li><Link  to="/service-details">Service Details</Link></li>
                                     <li><Link  to="/portfolio">Portfolio</Link></li>

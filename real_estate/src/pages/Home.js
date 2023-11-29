@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Slider from '../components/Slider'
+import Sliders from '../components/Slider'
 
 export default function Home() {
     return (
@@ -9,7 +9,7 @@ export default function Home() {
 
     <div className="ltn__utilize-overlay"></div>
 
-<Slider></Slider>
+<Sliders></Sliders>
 
     {/* <!-- CAR DEALER FORM AREA START --> */}
     <div className="ltn__car-dealer-form-area mt--65 mt-120 pb-115---">
