@@ -8,6 +8,7 @@ export default function Layout() {
     <>
         <div class="body-wrapper">
             <Header></Header>
+            <div class="ltn__utilize-overlay"></div>
             <Outlet></Outlet>
             <Footer></Footer>
         </div>
