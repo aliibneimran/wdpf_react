@@ -15,7 +15,7 @@ export default function Service() {
                                     <h1 className="page-title">What We Do</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Service</li>
                                         </ul>
                                     </div>
@@ -47,7 +47,7 @@ export default function Service() {
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                     </div>
                                     <div className="btn-wrapper animated">
-                                        <Link to="/about.html" className="theme-btn-1 btn btn-effect-1 text-uppercase">About Us</Link>
+                                        <Link to="/about" className="theme-btn-1 btn btn-effect-1 text-uppercase">About Us</Link>
                                     </div>
                                 </div>
                             </div>
@@ -74,9 +74,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Property Management</Link></h3>
+                                        <h3><Link to="/service-details">Property Management</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -87,9 +87,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Mortgage Service</Link></h3>
+                                        <h3><Link to="/service-details">Mortgage Service</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -100,9 +100,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Consulting Service</Link></h3>
+                                        <h3><Link to="/service-details">Consulting Service</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +113,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Home Buying</Link></h3>
+                                        <h3><Link to="/service-details">Home Buying</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -126,9 +126,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Home Selling</Link></h3>
+                                        <h3><Link to="/service-details">Home Selling</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -139,9 +139,9 @@ export default function Service() {
                                         {/* <img src="assets/img/icons/icon-img/21.png" alt="#"> */}
                                     </div>
                                     <div className="ltn__feature-info">
-                                        <h3><Link to="/service-details.html">Escrow Services</Link></h3>
+                                        <h3><Link to="/service-details">Escrow Services</Link></h3>
                                         <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                                        {/* <Link class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
+                                        {/* <Link class="ltn__service-btn" href="service-details">Find A Home <i class="flaticon-right-arrow"></i></Link> */}
                                     </div>
                                 </div>
                             </div>

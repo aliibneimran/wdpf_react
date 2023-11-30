@@ -14,7 +14,7 @@ export default function OrderTracking() {
                                 <h1 className="page-title">Order Tracking</h1>
                                 <div className="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                        <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                         <li>Order Tracking</li>
                                     </ul>
                                 </div>

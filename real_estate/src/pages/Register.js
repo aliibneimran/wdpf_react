@@ -14,7 +14,7 @@ export default function Register() {
                               <h1 className="page-title">Account</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>Register</li>
                                   </ul>
                               </div>
@@ -61,7 +61,7 @@ export default function Register() {
                                   <p>By creating an account, you agree to our:</p>
                                   <p><Link to="/#">TERMS OF CONDITIONS  &nbsp; &nbsp; | &nbsp; &nbsp;  PRIVACY POLICY</Link></p>
                                   <div className="go-to-btn mt-50">
-                                      <Link to="/login.html">ALREADY HAVE AN ACCOUNT ?</Link>
+                                      <Link to="/login">ALREADY HAVE AN ACCOUNT ?</Link>
                                   </div>
                               </div>
                           </div>

@@ -19,7 +19,7 @@ export default function About() {
                 <h1 className="page-title">About Us</h1>
                 <div className="ltn__breadcrumb-list">
                   <ul>
-                    <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home"></i></span> Home</Link></li>
+                    <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home"></i></span> Home</Link></li>
                     <li>About Us</li>
                   </ul>
                 </div>
@@ -80,7 +80,7 @@ export default function About() {
                     llamco laboris. Lorem ipsum dolor sit amet" </p>
                 </div>
                 <div className="btn-wrapper animated">
-                  <Link to="/service.html" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+                  <Link to="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
                 </div>
               </div>
             </div>

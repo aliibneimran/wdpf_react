@@ -15,7 +15,7 @@ export default function Team() {
                                     <h1 className="page-title">Our Agent</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Agent</li>
                                         </ul>
                                     </div>
@@ -32,10 +32,10 @@ export default function Team() {
                             <div className="col-lg-4 col-sm-6">
                                 <div className="ltn__team-item ltn__team-item-3---">
                                     <div className="team-img">
-                                        <img src="assets/img/team/4.jpg" alt="Image" />
+                                        <img src="assets/img/team/4.jpg" alt="Imag" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">Rosalina D. William</Link></h4>
+                                        <h4><Link to="/team-details">Rosalina D. William</Link></h4>
                                         <h6 className="ltn__secondary-color">Real Estate Broker</h6>
                                         <div className="ltn__social-media">
                                             <ul>
@@ -53,7 +53,7 @@ export default function Team() {
                                         <img src="assets/img/team/2.jpg" alt="Image" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">Kelian Anderson</Link></h4>
+                                        <h4><Link to="/team-details">Kelian Anderson</Link></h4>
                                         <h6 className="ltn__secondary-color">Selling Agents</h6>
                                         <div className="ltn__social-media">
                                             <ul>
@@ -71,7 +71,7 @@ export default function Team() {
                                         <img src="assets/img/team/3.jpg" alt="Image" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">Miranda H. Halim</Link></h4>
+                                        <h4><Link to="/team-details">Miranda H. Halim</Link></h4>
                                         <h6 className="ltn__secondary-color">Property Seller</h6>
                                         <div className="ltn__social-media">
                                             <ul>
@@ -89,7 +89,7 @@ export default function Team() {
                                         <img src="assets/img/team/1.jpg" alt="Image" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">Damble D. Browni.</Link></h4>
+                                        <h4><Link to="/team-details">Damble D. Browni.</Link></h4>
                                         <h6 className="ltn__secondary-color">Property Seller</h6>
                                         <div className="ltn__social-media">
                                             <ul>
@@ -107,7 +107,7 @@ export default function Team() {
                                         <img src="assets/img/team/5.jpg" alt="Image" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">Aiden Benjamin</Link></h4>
+                                        <h4><Link to="/team-details">Aiden Benjamin</Link></h4>
                                         <h6 className="ltn__secondary-color">Real Estate Broker</h6>
                                         <div className="ltn__social-media">
                                             <ul>
@@ -125,7 +125,7 @@ export default function Team() {
                                         <img src="assets/img/team/6.jpg" alt="Image" />
                                     </div>
                                     <div className="team-info">
-                                        <h4><Link to="/team-details.html">James Carter</Link></h4>
+                                        <h4><Link to="/team-details">James Carter</Link></h4>
                                         <h6 className="ltn__secondary-color">Selling Agents</h6>
                                         <div className="ltn__social-media">
                                             <ul>

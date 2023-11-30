@@ -27,7 +27,7 @@ export default function Carosel() {
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
                     <div className="btn-wrapper animated">
-                      <Link to="about.html" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</Link>
+                      <Link to="about" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</Link>
                       <Link className="ltn__video-play-btn bg-white" to="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&showinfo=0" data-rel="lightcase">
                         <i className="icon-play  ltn__secondary-color" />
                       </Link>
@@ -61,8 +61,8 @@ export default function Carosel() {
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
                     <div className="btn-wrapper animated">
-                      <Link to="service.html" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-                      <Link to="about.html" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+                      <Link to="service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+                      <Link to="about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -93,8 +93,8 @@ export default function Carosel() {
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
                     <div className="btn-wrapper animated">
-                      <Link to="service.html" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-                      <Link to="about.html" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+                      <Link to="service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+                      <Link to="about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
                     </div>
                   </div>
                 </div>
@@ -125,8 +125,8 @@ export default function Carosel() {
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
                     <div className="btn-wrapper animated">
-                      <Link to="service.html" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-                      <Link to="about.html" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+                      <Link to="service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+                      <Link to="about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
                     </div>
                   </div>
                 </div>

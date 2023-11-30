@@ -14,7 +14,7 @@ export default function Locations() {
                               <h1 className="page-title">Google Map Locations</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>Locations</li>
                                   </ul>
                               </div>
@@ -68,7 +68,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -79,7 +79,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -90,7 +90,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -101,7 +101,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -112,7 +112,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -123,7 +123,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -139,7 +139,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -150,7 +150,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -161,7 +161,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -177,7 +177,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -188,7 +188,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>
@@ -199,7 +199,7 @@ export default function Locations() {
                               <h5 className="ltn__location-single-info"><i className="fas fa-map-marked-alt" />5816 S. Coulter Street Amarillo, <br /> TX 79119</h5>
                               <h4 className="ltn__location-single-info"><i className="fas fa-phone-volume" />0123456789</h4>
                               <div className="btn-wrapper">
-                                  <Link to="/appointment.html" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
+                                  <Link to="/appointment" className="btn btn-transparent btn-border btn-effect-4"><i className="fas fa-location-arrow" /> Get An Appointment</Link>
                                   <Link to="/#" className="btn btn-transparent btn-border btn-effect-3"><i className="fas fa-globe" /> View Website</Link>
                               </div>
                           </div>

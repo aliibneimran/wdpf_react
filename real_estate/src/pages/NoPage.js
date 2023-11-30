@@ -13,7 +13,7 @@ export default function NoPage() {
                                 <h1 className="page-title">404 Page</h1>
                                 <div className="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><Link to="index.html"><span className="ltn__secondary-color"><i className="fas fa-home"></i></span> Home</Link></li>
+                                        <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home"></i></span> Home</Link></li>
                                         <li>404</li>
                                     </ul>
                                 </div>
@@ -38,7 +38,7 @@ export default function NoPage() {
                                 {/* <!-- <h3>Oops! Looks like something going rong</h3> --> */}
                                 <p>Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
                                 <div className="btn-wrapper">
-                                    <Link to="index.html" className="btn btn-transparent"><i className="fas fa-long-arrow-alt-left"></i> BACK TO HOME</Link>
+                                    <Link to="index" className="btn btn-transparent"><i className="fas fa-long-arrow-alt-left"></i> BACK TO HOME</Link>
                                 </div>
                             </div>
                         </div>

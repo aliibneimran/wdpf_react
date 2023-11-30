@@ -14,7 +14,7 @@ export default function History() {
                               <h1 className="page-title">Our History</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>History</li>
                                   </ul>
                               </div>
@@ -189,7 +189,7 @@ export default function History() {
                                   <div className="ltn__feature-icon">
                                       <span><i className="flaticon-house-4" /></span>
                                   </div>
-                                  <h3><Link to="/service-details.html">The Perfect Residency</Link></h3>
+                                  <h3><Link to="/service-details">The Perfect Residency</Link></h3>
                               </div>
                               <div className="ltn__feature-info">
                                   <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.</p>
@@ -202,7 +202,7 @@ export default function History() {
                                   <div className="ltn__feature-icon">
                                       <span><i className="icon-mechanic" /></span>
                                   </div>
-                                  <h3><Link to="/service-details.html">Global Architect Experts</Link></h3>
+                                  <h3><Link to="/service-details">Global Architect Experts</Link></h3>
                               </div>
                               <div className="ltn__feature-info">
                                   <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.</p>
@@ -215,7 +215,7 @@ export default function History() {
                                   <div className="ltn__feature-icon">
                                       <span><i className="icon-repair-1" /></span>
                                   </div>
-                                  <h3><Link to="/service-details.html">Built-in Storage Cupboards</Link></h3>
+                                  <h3><Link to="/service-details">Built-in Storage Cupboards</Link></h3>
                               </div>
                               <div className="ltn__feature-info">
                                   <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or incididunt ut labore.</p>

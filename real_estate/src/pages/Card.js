@@ -15,7 +15,7 @@ export default function Card() {
                                   <h1 className="page-title">Cart</h1>
                                   <div className="ltn__breadcrumb-list">
                                       <ul>
-                                          <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                          <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                           <li>Cart</li>
                                       </ul>
                                   </div>
@@ -45,10 +45,10 @@ export default function Card() {
                                               <tr>
                                                   <td className="cart-product-remove">x</td>
                                                   <td className="cart-product-image">
-                                                      <Link to="/product-details.html"><img src="assets/img/product/1.png" alt="#" /></Link>
+                                                      <Link to="/product-details"><img src="assets/img/product/1.png" alt="#" /></Link>
                                                   </td>
                                                   <td className="cart-product-info">
-                                                      <h4><Link to="/product-details.html">3 Rooms Manhattan</Link></h4>
+                                                      <h4><Link to="/product-details">3 Rooms Manhattan</Link></h4>
                                                   </td>
                                                   <td className="cart-product-price">$149.00</td>
                                                   <td className="cart-product-quantity">
@@ -61,10 +61,10 @@ export default function Card() {
                                               <tr>
                                                   <td className="cart-product-remove">x</td>
                                                   <td className="cart-product-image">
-                                                      <Link to="/product-details.html"><img src="assets/img/product/2.png" alt="#" /></Link>
+                                                      <Link to="/product-details"><img src="assets/img/product/2.png" alt="#" /></Link>
                                                   </td>
                                                   <td className="cart-product-info">
-                                                      <h4><Link to="/product-details.html">OE Replica Wheels</Link></h4>
+                                                      <h4><Link to="/product-details">OE Replica Wheels</Link></h4>
                                                   </td>
                                                   <td className="cart-product-price">$85.00</td>
                                                   <td className="cart-product-quantity">
@@ -77,10 +77,10 @@ export default function Card() {
                                               <tr>
                                                   <td className="cart-product-remove">x</td>
                                                   <td className="cart-product-image">
-                                                      <Link to="/product-details.html"><img src="assets/img/product/3.png" alt="#" /></Link>
+                                                      <Link to="/product-details"><img src="assets/img/product/3.png" alt="#" /></Link>
                                                   </td>
                                                   <td className="cart-product-info">
-                                                      <h4><Link to="/product-details.html">Wheel Bearing Retainer</Link></h4>
+                                                      <h4><Link to="/product-details">Wheel Bearing Retainer</Link></h4>
                                                   </td>
                                                   <td className="cart-product-price">$75.00</td>
                                                   <td className="cart-product-quantity">
@@ -127,7 +127,7 @@ export default function Card() {
                                           </tbody>
                                       </table>
                                       <div className="btn-wrapper text-right">
-                                          <Link to="/checkout.html" className="theme-btn-1 btn btn-effect-1">Proceed to checkout</Link>
+                                          <Link to="/checkout" className="theme-btn-1 btn btn-effect-1">Proceed to checkout</Link>
                                       </div>
                                   </div>
                               </div>

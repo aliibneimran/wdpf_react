@@ -20,7 +20,7 @@ export default function Blogs() {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link to="/blog-details.html"><img src="assets/img/blog/1.jpg" alt="#" /></Link>
+                  <Link to="/blog-details"><img src="assets/img/blog/1.jpg" alt="#" /></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -33,7 +33,7 @@ export default function Blogs() {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link to="/blog-details.html">10 Brilliant Ways To Decorate Your Home</Link></h3>
+                  <h3 className="ltn__blog-title"><Link to="/blog-details">10 Brilliant Ways To Decorate Your Home</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -41,7 +41,7 @@ export default function Blogs() {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link to="/blog-details.html">Read more</Link>
+                      <Link to="/blog-details">Read more</Link>
                     </div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ export default function Blogs() {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link to="/blog-details.html"><img src="assets/img/blog/2.jpg" alt="#" /></Link>
+                  <Link to="/blog-details"><img src="assets/img/blog/2.jpg" alt="#" /></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -64,7 +64,7 @@ export default function Blogs() {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link to="/blog-details.html">The Most Inspiring Interior Design Of 2021</Link></h3>
+                  <h3 className="ltn__blog-title"><Link to="/blog-details">The Most Inspiring Interior Design Of 2021</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -72,7 +72,7 @@ export default function Blogs() {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link to="/blog-details.html">Read more</Link>
+                      <Link to="/blog-details">Read more</Link>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Blogs() {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link to="/blog-details.html"><img src="assets/img/blog/3.jpg" alt="#" /></Link>
+                  <Link to="/blog-details"><img src="assets/img/blog/3.jpg" alt="#" /></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -95,7 +95,7 @@ export default function Blogs() {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link to="/blog-details.html">Recent Commercial Real Estate Transactions</Link></h3>
+                  <h3 className="ltn__blog-title"><Link to="/blog-details">Recent Commercial Real Estate Transactions</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -103,7 +103,7 @@ export default function Blogs() {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link to="/blog-details.html">Read more</Link>
+                      <Link to="/blog-details">Read more</Link>
                     </div>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Blogs() {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link to="/blog-details.html"><img src="assets/img/blog/4.jpg" alt="#" /></Link>
+                  <Link to="/blog-details"><img src="assets/img/blog/4.jpg" alt="#" /></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -126,7 +126,7 @@ export default function Blogs() {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link to="/blog-details.html">Renovating a Living Room? Experts Share Their Secrets</Link></h3>
+                  <h3 className="ltn__blog-title"><Link to="/blog-details">Renovating a Living Room? Experts Share Their Secrets</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -134,7 +134,7 @@ export default function Blogs() {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link to="/blog-details.html">Read more</Link>
+                      <Link to="/blog-details">Read more</Link>
                     </div>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ export default function Blogs() {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link to="/blog-details.html"><img src="assets/img/blog/5.jpg" alt="#" /></Link>
+                  <Link to="/blog-details"><img src="assets/img/blog/5.jpg" alt="#" /></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -157,7 +157,7 @@ export default function Blogs() {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link to="/blog-details.html">7 home trends that will shape your house in 2021</Link></h3>
+                  <h3 className="ltn__blog-title"><Link to="/blog-details">7 home trends that will shape your house in 2021</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -165,7 +165,7 @@ export default function Blogs() {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link to="/blog-details.html">Read more</Link>
+                      <Link to="/blog-details">Read more</Link>
                     </div>
                   </div>
                 </div>

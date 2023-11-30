@@ -14,7 +14,7 @@ export default function AddListing() {
                                 <h1 class="page-title">Add Listing</h1>
                                 <div class="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><Link to="/index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
+                                        <li><Link to="/"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
                                         <li>Add Listing</li>
                                     </ul>
                                 </div>

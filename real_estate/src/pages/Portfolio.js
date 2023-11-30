@@ -15,7 +15,7 @@ export default function Portfolio() {
                                     <h1 className="page-title">Our Portfolio</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Portfolio</li>
                                         </ul>
                                     </div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Portfolio Link </Link></h4>
+                                        <h4><Link to="/portfolio-details">Portfolio Link </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Inline Description </Link></h4>
+                                        <h4><Link to="/portfolio-details">Inline Description </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Youtube Video </Link></h4>
+                                        <h4><Link to="/portfolio-details">Youtube Video </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Vimeo Video </Link></h4>
+                                        <h4><Link to="/portfolio-details">Vimeo Video </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">HTML5 Video </Link></h4>
+                                        <h4><Link to="/portfolio-details">HTML5 Video </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Google Map </Link></h4>
+                                        <h4><Link to="/portfolio-details">Google Map </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">img Caption </Link></h4>
+                                        <h4><Link to="/portfolio-details">img Caption </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Not Found</Link></h4>
+                                        <h4><Link to="/portfolio-details">Not Found</Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Portfolio Link </Link></h4>
+                                        <h4><Link to="/portfolio-details">Portfolio Link </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Portfolio Link </Link></h4>
+                                        <h4><Link to="/portfolio-details">Portfolio Link </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Portfolio Link </Link></h4>
+                                        <h4><Link to="/portfolio-details">Portfolio Link </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@ export default function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="ltn__gallery-item-info">
-                                        <h4><Link to="/portfolio-details.html">Portfolio Link </Link></h4>
+                                        <h4><Link to="/portfolio-details">Portfolio Link </Link></h4>
                                         <p>Web Design &amp; Development, Branding</p>
                                     </div>
                                 </div>
@@ -263,11 +263,11 @@ export default function Portfolio() {
               <div class="ltn__pagination text-center margin-top-50">
                   <ul>
                       <li class="arrow-icon"><Link to="/#"> &leftarrow; </Link></li>
-                      <li class="active"><Link to="/blog.html">1</Link></li>
-                      <li><Link to="/blog-2.html">2</Link></li>
-                      <li><Link to="/blog-2.html">3</Link></li>
-                      <li><Link to="/blog-2.html">...</Link></li>
-                      <li><Link to="/blog-2.html">10</Link></li>
+                      <li class="active"><Link to="/blog">1</Link></li>
+                      <li><Link to="/blog-2">2</Link></li>
+                      <li><Link to="/blog-2">3</Link></li>
+                      <li><Link to="/blog-2">...</Link></li>
+                      <li><Link to="/blog-2">10</Link></li>
                       <li class="arrow-icon"><Link to="/#"> &rightarrow; </Link></li>
                   </ul>
               </div>

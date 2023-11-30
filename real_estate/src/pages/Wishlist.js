@@ -15,7 +15,7 @@ export default function Wishlist() {
                                     <h1 className="page-title">Wishlist</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Wishlist</li>
                                         </ul>
                                     </div>
@@ -45,10 +45,10 @@ export default function Wishlist() {
                                                 <tr>
                                                     <td className="cart-product-remove">x</td>
                                                     <td className="cart-product-image">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/1.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/1.png" alt="#" /></Link>
                                                     </td>
                                                     <td className="cart-product-info">
-                                                        <h4><Link to="/product-details.html">3 Rooms Manhattan</Link></h4>
+                                                        <h4><Link to="/product-details">3 Rooms Manhattan</Link></h4>
                                                     </td>
                                                     <td className="cart-product-price">$85.00</td>
                                                     <td className="cart-product-stock">In Stock</td>
@@ -59,10 +59,10 @@ export default function Wishlist() {
                                                 <tr>
                                                     <td className="cart-product-remove">x</td>
                                                     <td className="cart-product-image">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/2.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/2.png" alt="#" /></Link>
                                                     </td>
                                                     <td className="cart-product-info">
-                                                        <h4><Link to="/product-details.html">Shock Mount Insulator</Link></h4>
+                                                        <h4><Link to="/product-details">Shock Mount Insulator</Link></h4>
                                                     </td>
                                                     <td className="cart-product-price">$89.00</td>
                                                     <td className="cart-product-stock">In Stock</td>
@@ -73,10 +73,10 @@ export default function Wishlist() {
                                                 <tr>
                                                     <td className="cart-product-remove">x</td>
                                                     <td className="cart-product-image">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/4.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/4.png" alt="#" /></Link>
                                                     </td>
                                                     <td className="cart-product-info">
-                                                        <h4><Link to="/product-details.html">Tail Light Lens</Link></h4>
+                                                        <h4><Link to="/product-details">Tail Light Lens</Link></h4>
                                                     </td>
                                                     <td className="cart-product-price">$149.00</td>
                                                     <td className="cart-product-stock">In Stock</td>

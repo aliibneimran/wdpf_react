@@ -15,7 +15,7 @@ export default function ProductDetails() {
                                     <h1 className="page-title">Property details</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Property details</li>
                                         </ul>
                                     </div>
@@ -643,10 +643,10 @@ export default function ProductDetails() {
                                         <div className="col-xl-6 col-sm-6 col-12">
                                             <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                 <div className="product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
                                                     <div className="real-estate-agent">
                                                         <div className="agent-img">
-                                                            <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                            <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -656,11 +656,11 @@ export default function ProductDetails() {
                                                             <li className="sale-badg">For Rent</li>
                                                         </ul>
                                                     </div>
-                                                    <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                    <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                     <div className="product-img-location">
                                                         <ul>
                                                             <li>
-                                                                <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                                <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -687,7 +687,7 @@ export default function ProductDetails() {
                                                                     <i className="flaticon-heart-1" /></Link>
                                                             </li>
                                                             <li>
-                                                                <Link to="/portfolio-details.html" title="Compare">
+                                                                <Link to="/portfolio-details" title="Compare">
                                                                     <i className="flaticon-add" />
                                                                 </Link>
                                                             </li>
@@ -705,10 +705,10 @@ export default function ProductDetails() {
                                         <div className="col-xl-6 col-sm-6 col-12">
                                             <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                 <div className="product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                                                     <div className="real-estate-agent">
                                                         <div className="agent-img">
-                                                            <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                            <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -718,11 +718,11 @@ export default function ProductDetails() {
                                                             <li className="sale-badg">For Sale</li>
                                                         </ul>
                                                     </div>
-                                                    <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                    <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                     <div className="product-img-location">
                                                         <ul>
                                                             <li>
-                                                                <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                                <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -749,7 +749,7 @@ export default function ProductDetails() {
                                                                     <i className="flaticon-heart-1" /></Link>
                                                             </li>
                                                             <li>
-                                                                <Link to="/portfolio-details.html" title="Compare">
+                                                                <Link to="/portfolio-details" title="Compare">
                                                                     <i className="flaticon-add" />
                                                                 </Link>
                                                             </li>
@@ -820,7 +820,7 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="top-rated-product-item clearfix">
                                                     <div className="top-rated-product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/1.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/1.png" alt="#" /></Link>
                                                     </div>
                                                     <div className="top-rated-product-info">
                                                         <div className="product-ratting">
@@ -832,7 +832,7 @@ export default function ProductDetails() {
                                                                 <li><Link to="/#"><i className="fas fa-star" /></Link></li>
                                                             </ul>
                                                         </div>
-                                                        <h6><Link to="/product-details.html">Luxury House In Greenville </Link></h6>
+                                                        <h6><Link to="/product-details">Luxury House In Greenville </Link></h6>
                                                         <div className="product-price">
                                                             <span>$30,000.00</span>
                                                             <del>$35,000.00</del>
@@ -843,7 +843,7 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="top-rated-product-item clearfix">
                                                     <div className="top-rated-product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/2.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/2.png" alt="#" /></Link>
                                                     </div>
                                                     <div className="top-rated-product-info">
                                                         <div className="product-ratting">
@@ -855,7 +855,7 @@ export default function ProductDetails() {
                                                                 <li><Link to="/#"><i className="fas fa-star" /></Link></li>
                                                             </ul>
                                                         </div>
-                                                        <h6><Link to="/product-details.html">Apartment with Subunits</Link></h6>
+                                                        <h6><Link to="/product-details">Apartment with Subunits</Link></h6>
                                                         <div className="product-price">
                                                             <span>$30,000.00</span>
                                                             <del>$35,000.00</del>
@@ -866,7 +866,7 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="top-rated-product-item clearfix">
                                                     <div className="top-rated-product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product/3.png" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product/3.png" alt="#" /></Link>
                                                     </div>
                                                     <div className="top-rated-product-info">
                                                         <div className="product-ratting">
@@ -878,7 +878,7 @@ export default function ProductDetails() {
                                                                 <li><Link to="/#"><i className="far fa-star" /></Link></li>
                                                             </ul>
                                                         </div>
-                                                        <h6><Link to="/product-details.html">3 Rooms Manhattan</Link></h6>
+                                                        <h6><Link to="/product-details">3 Rooms Manhattan</Link></h6>
                                                         <div className="product-price">
                                                             <span>$30,000.00</span>
                                                             <del>$35,000.00</del>
@@ -907,10 +907,10 @@ export default function ProductDetails() {
                                             <div className="col-12">
                                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                     <div className="product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
                                                         <div className="real-estate-agent">
                                                             <div className="agent-img">
-                                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -918,11 +918,11 @@ export default function ProductDetails() {
                                                         <div className="product-price">
                                                             <span>$349,00<label>/Month</label></span>
                                                         </div>
-                                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                         <div className="product-img-location">
                                                             <ul>
                                                                 <li>
-                                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -944,10 +944,10 @@ export default function ProductDetails() {
                                             <div className="col-12">
                                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                     <div className="product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
                                                         <div className="real-estate-agent">
                                                             <div className="agent-img">
-                                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -955,11 +955,11 @@ export default function ProductDetails() {
                                                         <div className="product-price">
                                                             <span>$349,00<label>/Month</label></span>
                                                         </div>
-                                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                         <div className="product-img-location">
                                                             <ul>
                                                                 <li>
-                                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -981,10 +981,10 @@ export default function ProductDetails() {
                                             <div className="col-12">
                                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                     <div className="product-img">
-                                                        <Link to="/product-details.html"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
+                                                        <Link to="/product-details"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
                                                         <div className="real-estate-agent">
                                                             <div className="agent-img">
-                                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -992,11 +992,11 @@ export default function ProductDetails() {
                                                         <div className="product-price">
                                                             <span>$349,00<label>/Month</label></span>
                                                         </div>
-                                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                         <div className="product-img-location">
                                                             <ul>
                                                                 <li>
-                                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -1024,10 +1024,10 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="popular-post-widget-item clearfix">
                                                     <div className="popular-post-widget-img">
-                                                        <Link to="/blog-details.html"><img src="assets/img/team/5.jpg" alt="#" /></Link>
+                                                        <Link to="/blog-details"><img src="assets/img/team/5.jpg" alt="#" /></Link>
                                                     </div>
                                                     <div className="popular-post-widget-brief">
-                                                        <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                        <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                             cing elit, sed do.</Link></h6>
                                                         <div className="ltn__blog-meta">
                                                             <ul>
@@ -1042,10 +1042,10 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="popular-post-widget-item clearfix">
                                                     <div className="popular-post-widget-img">
-                                                        <Link to="/blog-details.html"><img src="assets/img/team/6.jpg" alt="#" /></Link>
+                                                        <Link to="/blog-details"><img src="assets/img/team/6.jpg" alt="#" /></Link>
                                                     </div>
                                                     <div className="popular-post-widget-brief">
-                                                        <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                        <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                             cing elit, sed do.</Link></h6>
                                                         <div className="ltn__blog-meta">
                                                             <ul>
@@ -1060,10 +1060,10 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="popular-post-widget-item clearfix">
                                                     <div className="popular-post-widget-img">
-                                                        <Link to="/blog-details.html"><img src="assets/img/team/7.jpg" alt="#" /></Link>
+                                                        <Link to="/blog-details"><img src="assets/img/team/7.jpg" alt="#" /></Link>
                                                     </div>
                                                     <div className="popular-post-widget-brief">
-                                                        <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                        <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                             cing elit, sed do.</Link></h6>
                                                         <div className="ltn__blog-meta">
                                                             <ul>
@@ -1078,10 +1078,10 @@ export default function ProductDetails() {
                                             <li>
                                                 <div className="popular-post-widget-item clearfix">
                                                     <div className="popular-post-widget-img">
-                                                        <Link to="/blog-details.html"><img src="assets/img/team/8.jpg" alt="#" /></Link>
+                                                        <Link to="/blog-details"><img src="assets/img/team/8.jpg" alt="#" /></Link>
                                                     </div>
                                                     <div className="popular-post-widget-brief">
-                                                        <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                        <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                             cing elit, sed do.</Link></h6>
                                                         <div className="ltn__blog-meta">
                                                             <ul>
@@ -1129,7 +1129,7 @@ export default function ProductDetails() {
                                     </div>
                                     {/* Banner Widget */}
                                     <div className="widget ltn__banner-widget d-none">
-                                        <Link to="/shop.html"><img src="assets/img/banner/2.jpg" alt="#" /></Link>
+                                        <Link to="/shop"><img src="assets/img/banner/2.jpg" alt="#" /></Link>
                                     </div>
                                 </aside>
                             </div>
@@ -1152,10 +1152,10 @@ export default function ProductDetails() {
                             <div className="col-xl-6 col-sm-6 col-12">
                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div className="product-img">
-                                        <Link to="/product-details.html"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
+                                        <Link to="/product-details"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
                                         <div className="real-estate-agent">
                                             <div className="agent-img">
-                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -1165,11 +1165,11 @@ export default function ProductDetails() {
                                                 <li className="sale-badg">For Rent</li>
                                             </ul>
                                         </div>
-                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                         <div className="product-img-location">
                                             <ul>
                                                 <li>
-                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1196,7 +1196,7 @@ export default function ProductDetails() {
                                                         <i className="flaticon-heart-1" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio-details.html" title="Compare">
+                                                    <Link to="/portfolio-details" title="Compare">
                                                         <i className="flaticon-add" />
                                                     </Link>
                                                 </li>
@@ -1214,10 +1214,10 @@ export default function ProductDetails() {
                             <div className="col-xl-6 col-sm-6 col-12">
                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div className="product-img">
-                                        <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                                        <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                                         <div className="real-estate-agent">
                                             <div className="agent-img">
-                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -1227,11 +1227,11 @@ export default function ProductDetails() {
                                                 <li className="sale-badg">For Sale</li>
                                             </ul>
                                         </div>
-                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                         <div className="product-img-location">
                                             <ul>
                                                 <li>
-                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1258,7 +1258,7 @@ export default function ProductDetails() {
                                                         <i className="flaticon-heart-1" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio-details.html" title="Compare">
+                                                    <Link to="/portfolio-details" title="Compare">
                                                         <i className="flaticon-add" />
                                                     </Link>
                                                 </li>
@@ -1276,10 +1276,10 @@ export default function ProductDetails() {
                             <div className="col-xl-6 col-sm-6 col-12">
                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div className="product-img">
-                                        <Link to="/product-details.html"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
+                                        <Link to="/product-details"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
                                         <div className="real-estate-agent">
                                             <div className="agent-img">
-                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -1289,11 +1289,11 @@ export default function ProductDetails() {
                                                 <li className="sale-badg">For Rent</li>
                                             </ul>
                                         </div>
-                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                         <div className="product-img-location">
                                             <ul>
                                                 <li>
-                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1320,7 +1320,7 @@ export default function ProductDetails() {
                                                         <i className="flaticon-heart-1" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio-details.html" title="Compare">
+                                                    <Link to="/portfolio-details" title="Compare">
                                                         <i className="flaticon-add" />
                                                     </Link>
                                                 </li>
@@ -1338,10 +1338,10 @@ export default function ProductDetails() {
                             <div className="col-xl-6 col-sm-6 col-12">
                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div className="product-img">
-                                        <Link to="/product-details.html"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
+                                        <Link to="/product-details"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
                                         <div className="real-estate-agent">
                                             <div className="agent-img">
-                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -1351,11 +1351,11 @@ export default function ProductDetails() {
                                                 <li className="sale-badg">For Rent</li>
                                             </ul>
                                         </div>
-                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                         <div className="product-img-location">
                                             <ul>
                                                 <li>
-                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1382,7 +1382,7 @@ export default function ProductDetails() {
                                                         <i className="flaticon-heart-1" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio-details.html" title="Compare">
+                                                    <Link to="/portfolio-details" title="Compare">
                                                         <i className="flaticon-add" />
                                                     </Link>
                                                 </li>
@@ -1400,10 +1400,10 @@ export default function ProductDetails() {
                             <div className="col-xl-6 col-sm-6 col-12">
                                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div className="product-img">
-                                        <Link to="/product-details.html"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
+                                        <Link to="/product-details"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
                                         <div className="real-estate-agent">
                                             <div className="agent-img">
-                                                <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -1413,11 +1413,11 @@ export default function ProductDetails() {
                                                 <li className="sale-badg">For Rent</li>
                                             </ul>
                                         </div>
-                                        <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                        <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                         <div className="product-img-location">
                                             <ul>
                                                 <li>
-                                                    <Link to="/product-details.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                                                    <Link to="/product-details"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1444,7 +1444,7 @@ export default function ProductDetails() {
                                                         <i className="flaticon-heart-1" /></Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/portfolio-details.html" title="Compare">
+                                                    <Link to="/portfolio-details" title="Compare">
                                                         <i className="flaticon-add" />
                                                     </Link>
                                                 </li>

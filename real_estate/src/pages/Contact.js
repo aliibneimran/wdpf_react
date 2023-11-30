@@ -15,7 +15,7 @@ export default function Contact() {
                                   <h1 className="page-title">Contact Us</h1>
                                   <div className="ltn__breadcrumb-list">
                                       <ul>
-                                          <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                          <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                           <li>Contact</li>
                                       </ul>
                                   </div>

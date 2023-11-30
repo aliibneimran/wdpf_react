@@ -15,7 +15,7 @@ export default function Faq() {
                                   <h1 className="page-title">Frequently asked questions</h1>
                                   <div className="ltn__breadcrumb-list">
                                       <ul>
-                                          <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                          <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                           <li>FAQ</li>
                                       </ul>
                                   </div>
@@ -119,7 +119,7 @@ export default function Faq() {
                                   <div className="need-support text-center mt-100">
                                       <h2>Still need help? Reach out to support 24/7:</h2>
                                       <div className="btn-wrapper mb-30">
-                                          <Link to="/contact.html" className="theme-btn-1 btn">Contact Us</Link>
+                                          <Link to="/contact" className="theme-btn-1 btn">Contact Us</Link>
                                       </div>
                                       <h3><i className="fas fa-phone" /> +0123-456-789</h3>
                                   </div>
@@ -141,7 +141,7 @@ export default function Faq() {
                                   </div>
                                   {/* Banner Widget */}
                                   <div className="widget ltn__banner-widget">
-                                      <Link to="/shop.html"><img src="assets/img/banner/banner-3.jpg" alt="Banner Image" /></Link>
+                                      <Link to="/shop"><img src="assets/img/banner/banner-3.jpg" alt="Banner Image" /></Link>
                                   </div>
                               </aside>
                           </div>

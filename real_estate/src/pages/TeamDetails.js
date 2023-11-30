@@ -15,7 +15,7 @@ export default function TeamDetails() {
                                     <h1 className="page-title">Agent Details</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Agent Details</li>
                                         </ul>
                                     </div>
@@ -78,10 +78,10 @@ export default function TeamDetails() {
                                                     <span><i className="icon-tire" /></span>
                                                 </div>
                                                 <div className="ltn__feature-info">
-                                                    <h4><Link to="/service.html">Home Buying</Link></h4>
+                                                    <h4><Link to="/service">Home Buying</Link></h4>
                                                     <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or</p>
-                                                    {/* <Link class="ltn__service-btn" href="service.html">Read More</Link> */}
-                                                    <Link className="ltn__service-btn" href="service-details.html">Read More <i className="flaticon-right-arrow" /></Link>
+                                                    {/* <Link class="ltn__service-btn" href="service">Read More</Link> */}
+                                                    <Link className="ltn__service-btn" href="service-details">Read More <i className="flaticon-right-arrow" /></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -91,10 +91,10 @@ export default function TeamDetails() {
                                                     <span><i className="icon-mechanic" /></span>
                                                 </div>
                                                 <div className="ltn__feature-info">
-                                                    <h4><Link to="/team.html">Home Selling</Link></h4>
+                                                    <h4><Link to="/team">Home Selling</Link></h4>
                                                     <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or</p>
-                                                    {/* <Link class="ltn__service-btn" href="service.html">Read More</Link> */}
-                                                    <Link className="ltn__service-btn" href="service-details.html">Read More <i className="flaticon-right-arrow" /></Link>
+                                                    {/* <Link class="ltn__service-btn" href="service">Read More</Link> */}
+                                                    <Link className="ltn__service-btn" href="service-details">Read More <i className="flaticon-right-arrow" /></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -104,10 +104,10 @@ export default function TeamDetails() {
                                                     <span><i className="icon-wheel-1" /></span>
                                                 </div>
                                                 <div className="ltn__feature-info">
-                                                    <h4><Link to="/service-details.html">Escrow Services</Link></h4>
+                                                    <h4><Link to="/service-details">Escrow Services</Link></h4>
                                                     <p>Lorem ipsum dolor sit ame it, consectetur adipisicing elit, sed do eiusmod te mp or</p>
-                                                    {/* <Link class="ltn__service-btn" href="service.html">Read More</Link> */}
-                                                    <Link className="ltn__service-btn" href="service-details.html">Read More <i className="flaticon-right-arrow" /></Link>
+                                                    {/* <Link class="ltn__service-btn" href="service">Read More</Link> */}
+                                                    <Link className="ltn__service-btn" href="service-details">Read More <i className="flaticon-right-arrow" /></Link>
                                                 </div>
                                             </div>
                                         </div>

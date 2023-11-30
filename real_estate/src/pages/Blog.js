@@ -14,7 +14,7 @@ export default function Blog() {
                                 <h1 class="page-title">News Feeds</h1>
                                 <div class="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><Link to="/index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
+                                        <li><Link to="/"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
                                         <li>Blog</li>
                                     </ul>
                                 </div>
@@ -34,7 +34,7 @@ export default function Blog() {
                                 {/* <!-- Blog Item --> */}
                                 <div class="ltn__blog-item ltn__blog-item-5">
                                     <div class="ltn__blog-img">
-                                        <Link to="/blog-details.html"><img src="assets/img/blog/31.jpg" alt="Image" /></Link>
+                                        <Link to="/blog-details"><img src="assets/img/blog/31.jpg" alt="Image" /></Link>
                                     </div>
                                     <div class="ltn__blog-brief">
                                         <div class="ltn__blog-meta">
@@ -44,7 +44,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">Real estate is property consisting of land and the buildings on it,
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">Real estate is property consisting of land and the buildings on it,
                                             along with its</Link></h3>
                                         <div class="ltn__blog-meta">
                                             <ul>
@@ -69,7 +69,7 @@ export default function Blog() {
                                                 </ul>
                                             </div>
                                             <div class="ltn__blog-btn">
-                                                <Link to="/blog-details.html"><i class="fas fa-arrow-right"></i>Read more</Link>
+                                                <Link to="/blog-details"><i class="fas fa-arrow-right"></i>Read more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">Adipisicing elit, sed do eiusmod tempor
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">Adipisicing elit, sed do eiusmod tempor
                                             incididunt ut labore et dolore.</Link></h3>
                                         <div class="ltn__blog-meta">
                                             <ul>
@@ -115,7 +115,7 @@ export default function Blog() {
                                                 </ul>
                                             </div>
                                             <div class="ltn__blog-btn">
-                                                <Link to="/blog-details.html"><i class="fas fa-arrow-right"></i>Read more</Link>
+                                                <Link to="/blog-details"><i class="fas fa-arrow-right"></i>Read more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -124,13 +124,13 @@ export default function Blog() {
                                 <div class="ltn__blog-item ltn__blog-item-5 ltn__blog-item-gallery">
                                     <div class="ltn__blog-gallery-active slick-arrow-1 slick-arrow-1-inner">
                                         <div class="ltn__blog-gallery-item">
-                                            <Link to="/blog-details.html"><img src="assets/img/blog/33.jpg" alt="Image" /></Link>
+                                            <Link to="/blog-details"><img src="assets/img/blog/33.jpg" alt="Image" /></Link>
                                         </div>
                                         <div class="ltn__blog-gallery-item">
-                                            <Link to="/blog-details.html"><img src="assets/img/blog/34.jpg" alt="Image" /></Link>
+                                            <Link to="/blog-details"><img src="assets/img/blog/34.jpg" alt="Image" /></Link>
                                         </div>
                                         <div class="ltn__blog-gallery-item">
-                                            <Link to="/blog-details.html"><img src="assets/img/blog/31.jpg" alt="Image" /></Link>
+                                            <Link to="/blog-details"><img src="assets/img/blog/31.jpg" alt="Image" /></Link>
                                         </div>
                                     </div>
                                     <div class="ltn__blog-brief">
@@ -141,7 +141,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">Magna aliqua. Ut enim ad minim venia
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">Magna aliqua. Ut enim ad minim venia
                                             m, quis nostrud exercitation ullamco</Link></h3>
                                         <div class="ltn__blog-meta">
                                             <ul>
@@ -166,7 +166,7 @@ export default function Blog() {
                                                 </ul>
                                             </div>
                                             <div class="ltn__blog-btn">
-                                                <Link to="/blog-details.html"><i class="fas fa-arrow-right"></i>Read more</Link>
+                                                <Link to="/blog-details"><i class="fas fa-arrow-right"></i>Read more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -185,7 +185,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">Laboris nisi ut aliquip ex ea commodo
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">Laboris nisi ut aliquip ex ea commodo
                                             consequat. Duis aute irure dolor.</Link></h3>
                                         <div class="ltn__blog-meta">
                                             <ul>
@@ -210,7 +210,7 @@ export default function Blog() {
                                                 </ul>
                                             </div>
                                             <div class="ltn__blog-btn">
-                                                <Link to="/blog-details.html"><i class="fas fa-arrow-right"></i>Read more</Link>
+                                                <Link to="/blog-details"><i class="fas fa-arrow-right"></i>Read more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -225,7 +225,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">In reprehenderit in voluptate velit esse
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">In reprehenderit in voluptate velit esse
                                             cillum dolore eu fugiat nulla pariatur.</Link></h3>
                                         <div class="ltn__blog-meta">
                                             <ul>
@@ -250,7 +250,7 @@ export default function Blog() {
                                                 </ul>
                                             </div>
                                             <div class="ltn__blog-btn">
-                                                <Link to="/blog-details.html"><i class="fas fa-arrow-right"></i>Read more</Link>
+                                                <Link to="/blog-details"><i class="fas fa-arrow-right"></i>Read more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -259,7 +259,7 @@ export default function Blog() {
                                 <div class="ltn__blog-item ltn__blog-item-5 ltn__blog-item-quote bg-image bg-overlay-theme-90" data-bs-bg="img/blog/3.jpg">
                                     <div class="ltn__blog-brief">
                                         <blockquote>
-                                            <Link to="/blog-details.html">Excepteur sint occaecat cupida
+                                            <Link to="/blog-details">Excepteur sint occaecat cupida
                                                 tat non proident, sunt in.</Link>
                                         </blockquote>
                                         <div class="ltn__blog-meta mb-0">
@@ -287,7 +287,7 @@ export default function Blog() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h3 class="ltn__blog-title"><Link to="/blog-details.html">Culpa qui officia deserunt mollit anim
+                                        <h3 class="ltn__blog-title"><Link to="/blog-details">Culpa qui officia deserunt mollit anim
                                             id est laborum. Sed ut perspiciatis</Link></h3>
                                         <div class="ltn__blog-meta mb-0">
                                             <ul>
@@ -378,7 +378,7 @@ export default function Blog() {
                                         <li>
                                             <div class="top-rated-product-item clearfix">
                                                 <div class="top-rated-product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product/1.png" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product/1.png" alt="#" /></Link>
                                                 </div>
                                                 <div class="top-rated-product-info">
                                                     <div class="product-ratting">
@@ -390,7 +390,7 @@ export default function Blog() {
                                                             <li><Link to="/#"><i class="fas fa-star"></i></Link></li>
                                                         </ul>
                                                     </div>
-                                                    <h6><Link to="/product-details.html">Luxury House In Greenville </Link></h6>
+                                                    <h6><Link to="/product-details">Luxury House In Greenville </Link></h6>
                                                     <div class="product-price">
                                                         <span>$30,000.00</span>
                                                         <del>$35,000.00</del>
@@ -401,7 +401,7 @@ export default function Blog() {
                                         <li>
                                             <div class="top-rated-product-item clearfix">
                                                 <div class="top-rated-product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product/2.png" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product/2.png" alt="#" /></Link>
                                                 </div>
                                                 <div class="top-rated-product-info">
                                                     <div class="product-ratting">
@@ -413,7 +413,7 @@ export default function Blog() {
                                                             <li><Link to="/#"><i class="fas fa-star"></i></Link></li>
                                                         </ul>
                                                     </div>
-                                                    <h6><Link to="/product-details.html">Apartment with Subunits</Link></h6>
+                                                    <h6><Link to="/product-details">Apartment with Subunits</Link></h6>
                                                     <div class="product-price">
                                                         <span>$30,000.00</span>
                                                         <del>$35,000.00</del>
@@ -424,7 +424,7 @@ export default function Blog() {
                                         <li>
                                             <div class="top-rated-product-item clearfix">
                                                 <div class="top-rated-product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product/3.png" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product/3.png" alt="#" /></Link>
                                                 </div>
                                                 <div class="top-rated-product-info">
                                                     <div class="product-ratting">
@@ -436,7 +436,7 @@ export default function Blog() {
                                                             <li><Link to="/#"><i class="far fa-star"></i></Link></li>
                                                         </ul>
                                                     </div>
-                                                    <h6><Link to="/product-details.html">3 Rooms Manhattan</Link></h6>
+                                                    <h6><Link to="/product-details">3 Rooms Manhattan</Link></h6>
                                                     <div class="product-price">
                                                         <span>$30,000.00</span>
                                                         <del>$35,000.00</del>
@@ -465,10 +465,10 @@ export default function Blog() {
                                         <div class="col-12">
                                             <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                 <div class="product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
                                                     <div class="real-estate-agent">
                                                         <div class="agent-img">
-                                                            <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                            <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -476,11 +476,11 @@ export default function Blog() {
                                                     <div class="product-price">
                                                         <span>$349,00<label>/Month</label></span>
                                                     </div>
-                                                    <h2 class="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                    <h2 class="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                     <div class="product-img-location">
                                                         <ul>
                                                             <li>
-                                                                <Link to="/product-details.html"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
+                                                                <Link to="/product-details"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -502,10 +502,10 @@ export default function Blog() {
                                         <div class="col-12">
                                             <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                 <div class="product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
                                                     <div class="real-estate-agent">
                                                         <div class="agent-img">
-                                                            <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                            <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -513,11 +513,11 @@ export default function Blog() {
                                                     <div class="product-price">
                                                         <span>$349,00<label>/Month</label></span>
                                                     </div>
-                                                    <h2 class="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                    <h2 class="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                     <div class="product-img-location">
                                                         <ul>
                                                             <li>
-                                                                <Link to="/product-details.html"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
+                                                                <Link to="/product-details"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -539,10 +539,10 @@ export default function Blog() {
                                         <div class="col-12">
                                             <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                                 <div class="product-img">
-                                                    <Link to="/product-details.html"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
+                                                    <Link to="/product-details"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
                                                     <div class="real-estate-agent">
                                                         <div class="agent-img">
-                                                            <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                                                            <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -550,11 +550,11 @@ export default function Blog() {
                                                     <div class="product-price">
                                                         <span>$349,00<label>/Month</label></span>
                                                     </div>
-                                                    <h2 class="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                                                    <h2 class="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                                                     <div class="product-img-location">
                                                         <ul>
                                                             <li>
-                                                                <Link to="/product-details.html"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
+                                                                <Link to="/product-details"><i class="flaticon-pin"></i> Belmont Gardens, Chicago</Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -581,10 +581,10 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><img src="assets/img/team/5.jpg" alt="#" /></Link>
+                                                    <Link to="/blog-details"><img src="assets/img/team/5.jpg" alt="#" /></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
-                                                    <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                    <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                         cing elit, sed do.</Link></h6>
                                                     <div class="ltn__blog-meta">
                                                         <ul>
@@ -599,10 +599,10 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><img src="assets/img/team/6.jpg" alt="#" /></Link>
+                                                    <Link to="/blog-details"><img src="assets/img/team/6.jpg" alt="#" /></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
-                                                    <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                    <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                         cing elit, sed do.</Link></h6>
                                                     <div class="ltn__blog-meta">
                                                         <ul>
@@ -617,10 +617,10 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><img src="assets/img/team/7.jpg" alt="#" /></Link>
+                                                    <Link to="/blog-details"><img src="assets/img/team/7.jpg" alt="#" /></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
-                                                    <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                    <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                         cing elit, sed do.</Link></h6>
                                                     <div class="ltn__blog-meta">
                                                         <ul>
@@ -635,10 +635,10 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><img src="assets/img/team/8.jpg" alt="#" /></Link>
+                                                    <Link to="/blog-details"><img src="assets/img/team/8.jpg" alt="#" /></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
-                                                    <h6><Link to="/blog-details.html">Lorem ipsum dolor sit
+                                                    <h6><Link to="/blog-details">Lorem ipsum dolor sit
                                                         cing elit, sed do.</Link></h6>
                                                     <div class="ltn__blog-meta">
                                                         <ul>
@@ -659,7 +659,7 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><i class="fab fa-twitter"></i></Link>
+                                                    <Link to="/blog-details"><i class="fab fa-twitter"></i></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
                                                     <p>Carsafe - #Gutenberg ready
@@ -680,7 +680,7 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><i class="fab fa-twitter"></i></Link>
+                                                    <Link to="/blog-details"><i class="fab fa-twitter"></i></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
                                                     <p>Carsafe - #Gutenberg ready
@@ -701,7 +701,7 @@ export default function Blog() {
                                         <li>
                                             <div class="popular-post-widget-item clearfix">
                                                 <div class="popular-post-widget-img">
-                                                    <Link to="/blog-details.html"><i class="fab fa-twitter"></i></Link>
+                                                    <Link to="/blog-details"><i class="fab fa-twitter"></i></Link>
                                                 </div>
                                                 <div class="popular-post-widget-brief">
                                                     <p>Carsafe - #Gutenberg ready
@@ -756,7 +756,7 @@ export default function Blog() {
                                 </div>
                                 {/* <!-- Banner Widget --> */}
                                 <div class="widget ltn__banner-widget d-none">
-                                    <Link to="/shop.html"><img src="assets/img/banner/2.jpg" alt="#" /></Link>
+                                    <Link to="/shop"><img src="assets/img/banner/2.jpg" alt="#" /></Link>
                                 </div>
                                 {/* <!-- Instagram Widget --> */}
                                 <div class="widget ltn__instagram-widget d-none">

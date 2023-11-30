@@ -125,11 +125,11 @@ export default function Modal() {
                       <img src="assets/img/product/1.png" alt="#" />
                     </div>
                     <div className="modal-product-info">
-                      <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                      <h5><a href="product-details">3 Rooms Manhattan</a></h5>
                       <p className="added-cart"><i className="fa fa-check-circle" />  Successfully added to your Cart</p>
                       <div className="btn-wrapper">
-                        <a href="cart.html" className="theme-btn-1 btn btn-effect-1">View Cart</a>
-                        <a href="checkout.html" className="theme-btn-2 btn btn-effect-2">Checkout</a>
+                        <a href="cart" className="theme-btn-1 btn btn-effect-1">View Cart</a>
+                        <a href="checkout" className="theme-btn-2 btn btn-effect-2">Checkout</a>
                       </div>
                     </div>
                     {/* additional-info */}
@@ -168,10 +168,10 @@ export default function Modal() {
                       <img src="assets/img/product/7.png" alt="#" />
                     </div>
                     <div className="modal-product-info">
-                      <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                      <h5><a href="product-details">3 Rooms Manhattan</a></h5>
                       <p className="added-cart"><i className="fa fa-check-circle" />  Successfully added to your Wishlist</p>
                       <div className="btn-wrapper">
-                        <a href="wishlist.html" className="theme-btn-1 btn btn-effect-1">View Wishlist</a>
+                        <a href="wishlist" className="theme-btn-1 btn btn-effect-1">View Wishlist</a>
                       </div>
                     </div>
                     {/* additional-info */}

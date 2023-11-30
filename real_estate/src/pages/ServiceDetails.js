@@ -14,7 +14,7 @@ export default function ServiceDetails() {
                                     <h1 className="page-title">Service Details</h1>
                                     <div className="ltn__breadcrumb-list">
                                         <ul>
-                                            <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                            <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                             <li>Property Management</li>
                                         </ul>
                                     </div>
@@ -83,7 +83,7 @@ export default function ServiceDetails() {
                                     </div>
                                     {/* Banner Widget */}
                                     <div className="widget ltn__banner-widget">
-                                        <Link to="/shop.html"><img src="assets/img/banner/banner-1.jpg" alt="Banner Image" /></Link>
+                                        <Link to="/shop"><img src="assets/img/banner/banner-1.jpg" alt="Banner Image" /></Link>
                                     </div>
                                 </aside>
                             </div>

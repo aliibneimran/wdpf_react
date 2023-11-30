@@ -15,7 +15,7 @@ export default function Login() {
                               <h1 className="page-title">Account</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>Login</li>
                                   </ul>
                               </div>
@@ -58,7 +58,7 @@ export default function Login() {
                               <p>Add items to your wishlistget personalised recommendations <br />
                                   check out more quickly track your orders register</p>
                               <div className="btn-wrapper">
-                                  <Link to="/register.html" className="theme-btn-1 btn black-btn">CREATE ACCOUNT</Link>
+                                  <Link to="/register" className="theme-btn-1 btn black-btn">CREATE ACCOUNT</Link>
                               </div>
                           </div>
                       </div>

@@ -14,7 +14,7 @@ export default function Shop() {
                               <h1 className="page-title">Property</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>Property</li>
                                   </ul>
                               </div>
@@ -86,10 +86,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -99,11 +99,11 @@ export default function Shop() {
                           <li className="sale-badg">For Rent</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -130,7 +130,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -148,10 +148,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -161,11 +161,11 @@ export default function Shop() {
                           <li className="sale-badg">For Sale</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -192,7 +192,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -210,10 +210,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -223,11 +223,11 @@ export default function Shop() {
                           <li className="sale-badg">For Rent</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -254,7 +254,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -272,10 +272,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -285,11 +285,11 @@ export default function Shop() {
                           <li className="sale-badg">For Rent</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -316,7 +316,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -334,10 +334,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -347,11 +347,11 @@ export default function Shop() {
                           <li className="sale-badg">For Rent</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -378,7 +378,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -396,10 +396,10 @@ export default function Shop() {
                 <div className="col-xl-6 col-sm-6 col-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/6.jpg" alt="#" /></Link>
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                       </div>
                     </div>
@@ -409,11 +409,11 @@ export default function Shop() {
                           <li className="sale-badg">For Rent</li>
                         </ul>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -440,7 +440,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -474,7 +474,7 @@ export default function Shop() {
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/1.jpg" alt="#" /></Link>
                     </div>
                     <div className="product-info">
                       <div className="product-badge-price">
@@ -487,11 +487,11 @@ export default function Shop() {
                           <span>$34,900<label>/Month</label></span>
                         </div>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -510,10 +510,10 @@ export default function Shop() {
                     <div className="product-info-bottom">
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                         <div className="agent-brief">
-                          <h6><Link to="/team-details.html">William Seklo</Link></h6>
+                          <h6><Link to="/team-details">William Seklo</Link></h6>
                           <small>Estate Agents</small>
                         </div>
                       </div>
@@ -529,7 +529,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -542,7 +542,7 @@ export default function Shop() {
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                     </div>
                     <div className="product-info">
                       <div className="product-badge-price">
@@ -555,11 +555,11 @@ export default function Shop() {
                           <span>$34,900<label>/Month</label></span>
                         </div>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -578,10 +578,10 @@ export default function Shop() {
                     <div className="product-info-bottom">
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                         <div className="agent-brief">
-                          <h6><Link to="/team-details.html">William Seklo</Link></h6>
+                          <h6><Link to="/team-details">William Seklo</Link></h6>
                           <small>Estate Agents</small>
                         </div>
                       </div>
@@ -597,7 +597,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -610,7 +610,7 @@ export default function Shop() {
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
                     </div>
                     <div className="product-info">
                       <div className="product-badge-price">
@@ -623,11 +623,11 @@ export default function Shop() {
                           <span>$34,900<label>/Month</label></span>
                         </div>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -646,10 +646,10 @@ export default function Shop() {
                     <div className="product-info-bottom">
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                         <div className="agent-brief">
-                          <h6><Link to="/team-details.html">William Seklo</Link></h6>
+                          <h6><Link to="/team-details">William Seklo</Link></h6>
                           <small>Estate Agents</small>
                         </div>
                       </div>
@@ -665,7 +665,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -678,7 +678,7 @@ export default function Shop() {
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/4.jpg" alt="#" /></Link>
                     </div>
                     <div className="product-info">
                       <div className="product-badge-price">
@@ -691,11 +691,11 @@ export default function Shop() {
                           <span>$34,900<label>/Month</label></span>
                         </div>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -714,10 +714,10 @@ export default function Shop() {
                     <div className="product-info-bottom">
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                         <div className="agent-brief">
-                          <h6><Link to="/team-details.html">William Seklo</Link></h6>
+                          <h6><Link to="/team-details">William Seklo</Link></h6>
                           <small>Estate Agents</small>
                         </div>
                       </div>
@@ -733,7 +733,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -746,7 +746,7 @@ export default function Shop() {
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                     <div className="product-img">
-                      <Link to="/product-details.html"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
+                      <Link to="/product-details"><img src="assets/img/product-3/5.jpg" alt="#" /></Link>
                     </div>
                     <div className="product-info">
                       <div className="product-badge-price">
@@ -759,11 +759,11 @@ export default function Shop() {
                           <span>$34,900<label>/Month</label></span>
                         </div>
                       </div>
-                      <h2 className="product-title"><Link to="/product-details.html">New Apartment Nice View</Link></h2>
+                      <h2 className="product-title"><Link to="/product-details">New Apartment Nice View</Link></h2>
                       <div className="product-img-location">
                         <ul>
                           <li>
-                            <Link to="/locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
+                            <Link to="/locations"><i className="flaticon-pin" /> Belmont Gardens, Chicago</Link>
                           </li>
                         </ul>
                       </div>
@@ -782,10 +782,10 @@ export default function Shop() {
                     <div className="product-info-bottom">
                       <div className="real-estate-agent">
                         <div className="agent-img">
-                          <Link to="/team-details.html"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
+                          <Link to="/team-details"><img src="assets/img/blog/author.jpg" alt="#" /></Link>
                         </div>
                         <div className="agent-brief">
-                          <h6><Link to="/team-details.html">William Seklo</Link></h6>
+                          <h6><Link to="/team-details">William Seklo</Link></h6>
                           <small>Estate Agents</small>
                         </div>
                       </div>
@@ -801,7 +801,7 @@ export default function Shop() {
                               <i className="flaticon-heart-1" /></Link>
                           </li>
                           <li>
-                            <Link to="/product-details.html" title="Product Details">
+                            <Link to="/product-details" title="Product Details">
                               <i className="flaticon-add" />
                             </Link>
                           </li>
@@ -838,7 +838,7 @@ export default function Shop() {
             <h4 className="ltn__widget-title">Property Type</h4>
             <ul>
               <li>
-                <Link to="/shop-right-sidebar.html">
+                <Link to="/shop-right-sidebar">
                   <label className="checkbox-item">House
                     <input type="checkbox" defaultChecked="checked" />
                     <span className="checkmark" />
@@ -1054,7 +1054,7 @@ export default function Shop() {
               <li>
                 <div className="top-rated-product-item clearfix">
                   <div className="top-rated-product-img">
-                    <Link to="/product-details.html"><img src="assets/img/product/1.png" alt="#" /></Link>
+                    <Link to="/product-details"><img src="assets/img/product/1.png" alt="#" /></Link>
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -1066,7 +1066,7 @@ export default function Shop() {
                         <li><Link to="/#"><i className="fas fa-star" /></Link></li>
                       </ul>
                     </div>
-                    <h6><Link to="/product-details.html">Mixel Solid Seat Cover</Link></h6>
+                    <h6><Link to="/product-details">Mixel Solid Seat Cover</Link></h6>
                     <div className="product-price">
                       <span>$49.00</span>
                       <del>$65.00</del>
@@ -1077,7 +1077,7 @@ export default function Shop() {
               <li>
                 <div className="top-rated-product-item clearfix">
                   <div className="top-rated-product-img">
-                    <Link to="/product-details.html"><img src="assets/img/product/2.png" alt="#" /></Link>
+                    <Link to="/product-details"><img src="assets/img/product/2.png" alt="#" /></Link>
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -1089,7 +1089,7 @@ export default function Shop() {
                         <li><Link to="/#"><i className="fas fa-star" /></Link></li>
                       </ul>
                     </div>
-                    <h6><Link to="/product-details.html">3 Rooms Manhattan</Link></h6>
+                    <h6><Link to="/product-details">3 Rooms Manhattan</Link></h6>
                     <div className="product-price">
                       <span>$49.00</span>
                       <del>$65.00</del>
@@ -1100,7 +1100,7 @@ export default function Shop() {
               <li>
                 <div className="top-rated-product-item clearfix">
                   <div className="top-rated-product-img">
-                    <Link to="/product-details.html"><img src="assets/img/product/3.png" alt="#" /></Link>
+                    <Link to="/product-details"><img src="assets/img/product/3.png" alt="#" /></Link>
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -1112,7 +1112,7 @@ export default function Shop() {
                         <li><Link to="/#"><i className="far fa-star" /></Link></li>
                       </ul>
                     </div>
-                    <h6><Link to="/product-details.html">Coil Spring Conversion</Link></h6>
+                    <h6><Link to="/product-details">Coil Spring Conversion</Link></h6>
                     <div className="product-price">
                       <span>$49.00</span>
                       <del>$65.00</del>
@@ -1190,7 +1190,7 @@ export default function Shop() {
           </div>
           {/* Banner Widget */}
           <div className="widget ltn__banner-widget d-none">
-            <Link to="/shop.html"><img src="assets/img/banner/banner-2.jpg" alt="#" /></Link>
+            <Link to="/shop"><img src="assets/img/banner/banner-2.jpg" alt="#" /></Link>
           </div>
         </aside>
       </div>

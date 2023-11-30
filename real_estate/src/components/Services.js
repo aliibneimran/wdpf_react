@@ -23,9 +23,9 @@ export default function Services() {
                   <img src="assets/img/icons/icon-img/21.png" alt="#" />
                 </div>
                 <div className="ltn__feature-info">
-                  <h3><Link to="/service-details.html">Buy a home</Link></h3>
+                  <h3><Link to="/service-details">Buy a home</Link></h3>
                   <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                  <Link className="ltn__service-btn" to="/service-details.html">Find A Home <i className="flaticon-right-arrow"></i></Link>
+                  <Link className="ltn__service-btn" to="/service-details">Find A Home <i className="flaticon-right-arrow"></i></Link>
                 </div>
               </div>
             </div>
@@ -36,9 +36,9 @@ export default function Services() {
                   <img src="assets/img/icons/icon-img/22.png" alt="#" />
                 </div>
                 <div className="ltn__feature-info">
-                  <h3><Link to="/service-details.html">Rent a home</Link></h3>
+                  <h3><Link to="/service-details">Rent a home</Link></h3>
                   <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                  <Link className="ltn__service-btn" to="/service-details.html">Find A Home <i className="flaticon-right-arrow"></i></Link>
+                  <Link className="ltn__service-btn" to="/service-details">Find A Home <i className="flaticon-right-arrow"></i></Link>
                 </div>
               </div>
             </div>
@@ -49,9 +49,9 @@ export default function Services() {
                   <img src="assets/img/icons/icon-img/23.png" alt="#" />
                 </div>
                 <div className="ltn__feature-info">
-                  <h3><Link to="/service-details.html">Sell a home</Link></h3>
+                  <h3><Link to="/service-details">Sell a home</Link></h3>
                   <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                  <Link className="ltn__service-btn" to="/service-details.html">Find A Home <i className="flaticon-right-arrow"></i></Link>
+                  <Link className="ltn__service-btn" to="/service-details">Find A Home <i className="flaticon-right-arrow"></i></Link>
                 </div>
               </div>
             </div>

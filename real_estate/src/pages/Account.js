@@ -14,7 +14,7 @@ export default function Account() {
                                 <h1 class="page-title">My Account</h1>
                                 <div class="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><Link to="/index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
+                                        <li><Link to="/"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</Link></li>
                                         <li>My Account</li>
                                     </ul>
                                 </div>
@@ -46,7 +46,7 @@ export default function Account() {
                                                     <Link data-bs-toggle="tab" to="/#ltn_tab_1_7">Add Property <i class="fa-solid fa-map-location-dot"></i></Link>
                                                     <Link data-bs-toggle="tab" to="/#ltn_tab_1_8">Payments <i class="fa-solid fa-money-check-dollar"></i></Link>
                                                     <Link data-bs-toggle="tab" to="/#ltn_tab_1_9">Change Password <i class="fa-solid fa-lock"></i></Link>
-                                                    <Link to="/login.html">Logout <i class="fas fa-sign-out-alt"></i></Link>
+                                                    <Link to="/login">Logout <i class="fas fa-sign-out-alt"></i></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -54,7 +54,7 @@ export default function Account() {
                                             <div class="tab-content">
                                                 <div class="tab-pane fade active show" id="ltn_tab_1_1">
                                                     <div class="ltn__myaccount-tab-content-inner">
-                                                        <p>Hello <strong>UserName</strong> (not <strong>UserName</strong>? <small><Link to="/login.html">Log out</Link></small> )</p>
+                                                        <p>Hello <strong>UserName</strong> (not <strong>UserName</strong>? <small><Link to="/login">Log out</Link></small> )</p>
                                                         <p>From your account dashboard you can view your <span>recent orders</span>, manage your <span>shipping and billing addresses</span>, and <span>edit your password and account details</span>.</p>
                                                     </div>
                                                 </div>
@@ -229,11 +229,11 @@ export default function Account() {
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -253,11 +253,11 @@ export default function Account() {
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -277,11 +277,11 @@ export default function Account() {
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/7.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/7.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -333,11 +333,11 @@ export default function Account() {
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/2.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -357,11 +357,11 @@ export default function Account() {
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/3.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -381,11 +381,11 @@ export default function Account() {
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="ltn__my-properties-img">
-                                                                            <Link to="/product-details.html"><img src="assets/img/product-3/7.jpg" alt="#" /></Link>
+                                                                            <Link to="/product-details"><img src="assets/img/product-3/7.jpg" alt="#" /></Link>
                                                                         </td>
                                                                         <td>
                                                                             <div class="ltn__my-properties-info">
-                                                                                <h6 class="mb-10"><Link to="/product-details.html">sdfasdfdsfsdafs</Link></h6>
+                                                                                <h6 class="mb-10"><Link to="/product-details">sdfasdfdsfsdafs</Link></h6>
                                                                                 <small><i class="icon-placeholder"></i> Brooklyn, New York, United States</small>
                                                                                 <div class="product-ratting">
                                                                                     <ul>
@@ -889,7 +889,7 @@ export default function Account() {
                                                                                         </div>
                                                                                         <button class="btn theme-btn-1 btn-effect-1 text-uppercase">Login</button>
                                                                                         <label class="input-info-save mb-0"><input type="checkbox" name="agree" /> Remember me</label>
-                                                                                        <p class="mt-30"><Link to="/register.html">Lost your password?</Link></p>
+                                                                                        <p class="mt-30"><Link to="/register">Lost your password?</Link></p>
                                                                                     </form>
                                                                                 </div>
                                                                             </div>

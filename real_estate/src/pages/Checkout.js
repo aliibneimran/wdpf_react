@@ -14,7 +14,7 @@ export default function Checkout() {
                               <h1 className="page-title">Checkout</h1>
                               <div className="ltn__breadcrumb-list">
                                   <ul>
-                                      <li><Link to="/index.html"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
+                                      <li><Link to="/"><span className="ltn__secondary-color"><i className="fas fa-home" /></span> Home</Link></li>
                                       <li>Checkout</li>
                                   </ul>
                               </div>
@@ -50,7 +50,7 @@ export default function Checkout() {
                                               </div>
                                               <button className="btn theme-btn-1 btn-effect-1 text-uppercase">Login</button>
                                               <label className="input-info-save mb-0"><input type="checkbox" name="agree" /> Remember me</label>
-                                              <p className="mt-30"><Link to="/register.html">Lost your password?</Link></p>
+                                              <p className="mt-30"><Link to="/register">Lost your password?</Link></p>
                                           </form>
                                       </div>
                                   </div>
