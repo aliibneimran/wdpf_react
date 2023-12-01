@@ -13,10 +13,10 @@ export default function Sidebar() {
                         </Link>
                     </li>{/* End Dashboard Nav */}
                     <li className="nav-item">
-                        <Link className="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" to="/#">
+                        <Link className="nav-link collapsed" data-bs-target="#product" data-bs-toggle="collapse" to="/#">
                             <i className="bi bi-menu-button-wide" /><span>Products</span><i className="bi bi-chevron-down ms-auto" />
                         </Link>
-                        <ul id="components-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <ul id="product" className="nav-content collapse " data-bs-parent="#sidebar-nav">
                             <li>
                                 <Link to="/products">
                                     <i className="bi bi-circle" /><span>All Products</span>
@@ -29,6 +29,47 @@ export default function Sidebar() {
                             </li>
                         </ul>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link collapsed" data-bs-target="#employee" data-bs-toggle="collapse" to="/#">
+                            <i className="bi bi-menu-button-wide" /><span>Employees</span><i className="bi bi-chevron-down ms-auto" />
+                        </Link>
+                        <ul id="employee" className="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <Link to="/employees">
+                                    <i className="bi bi-circle" /><span>All Employees</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/add-employee">
+                                    <i className="bi bi-circle" /><span>Add Employee</span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link collapsed" data-bs-target="#sale" data-bs-toggle="collapse" to="/#">
+                            <i className="bi bi-menu-button-wide" /><span>Sales</span><i className="bi bi-chevron-down ms-auto" />
+                        </Link>
+                        <ul id="sale" className="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <Link to="/products">
+                                    <i className="bi bi-circle" /><span>All Sales</span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link collapsed" data-bs-target="#partner" data-bs-toggle="collapse" to="/#">
+                            <i className="bi bi-menu-button-wide" /><span>Our Partner</span><i className="bi bi-chevron-down ms-auto" />
+                        </Link>
+                        <ul id="partner" className="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <Link to="/products">
+                                    <i className="bi bi-circle" /><span>All Partner</span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
                     <li className="nav-heading">Pages</li>
                     <li className="nav-item">
                         <Link className="nav-link collapsed" to="/users-profile">
@@ -37,41 +78,29 @@ export default function Sidebar() {
                         </Link>
                     </li>{/* End Profile Page Nav */}
                     <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-faq">
+                        <Link className="nav-link collapsed" to="/faq">
                             <i className="bi bi-question-circle" />
                             <span>F.A.Q</span>
                         </Link>
                     </li>{/* End F.A.Q Page Nav */}
                     <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-contact">
+                        <Link className="nav-link collapsed" to="/contact">
                             <i className="bi bi-envelope" />
                             <span>Contact</span>
                         </Link>
                     </li>{/* End Contact Page Nav */}
                     <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-register">
+                        <Link className="nav-link collapsed" to="/register">
                             <i className="bi bi-card-list" />
                             <span>Register</span>
                         </Link>
                     </li>{/* End Register Page Nav */}
                     <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-login">
+                        <Link className="nav-link collapsed" to="/login">
                             <i className="bi bi-box-arrow-in-right" />
                             <span>Login</span>
                         </Link>
                     </li>{/* End Login Page Nav */}
-                    <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-error-404">
-                            <i className="bi bi-dash-circle" />
-                            <span>Error 404</span>
-                        </Link>
-                    </li>{/* End Error 404 Page Nav */}
-                    <li className="nav-item">
-                        <Link className="nav-link collapsed" to="/pages-blank">
-                            <i className="bi bi-file-earmark" />
-                            <span>Blank</span>
-                        </Link>
-                    </li>{/* End Blank Page Nav */}
                 </ul>
             </aside>
         </>

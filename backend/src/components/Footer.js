@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <footer id="footer" className="footer">
                 <div className="copyright">
-                    © Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+                    © Copyright <strong><span>Admin</span></strong>. All Rights Reserved
                 </div>
                 <div className="credits">
                     Developed by <Link to="https://aii.wdpf55.com/portfolio/">Ali Ibne Imran</Link>
