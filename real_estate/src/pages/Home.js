@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Carosel from '../components/Carosel'
-
+import axios from 'axios';
 
 export default function Home() {
+  const [product,setProduct] = useState([]);
+  useEffect(
+    ()=>{
+      getProduct()
+    },[product]
+  );
+  // console.log(product)
+  const getProduct = ()=>{
+    axios.get('http://localhost:8080/allproducts',{ crossdomain: true }).then(
+      (res)=> setProduct(res.data)
+    )
+  } ;
     return (
         <>
 <div>
@@ -20,16 +32,21 @@ export default function Home() {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/2.jpg">                        
+        {/* loop */}
+        {product.map((item)=>(
+        <div className="col-lg-4 col-md-6">
+          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg={'/assets/uploads/'+ item.photo}>                        
             <div className="ltn__banner-info">
-              <h3><Link to="/shop"> Apartments </Link></h3>
+              <h3><Link to="/shop"> {item.product} </Link></h3>
               <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              <mark>{item.price}</mark>
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6">
+        ))}
+         {/* loop */}
+
+        {/* <div className="col-lg-4 col-md-6">
           <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/3.jpg">                        
             <div className="ltn__banner-info">
               <h3><Link to="/shop">  Condos</Link></h3>
@@ -64,7 +81,7 @@ export default function Home() {
               <mark> 13 Listings</mark>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
