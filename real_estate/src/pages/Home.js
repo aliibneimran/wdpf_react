@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Carosel from '../components/Carosel'
 import axios from 'axios';
+import Product from '../components/Product';
 
 export default function Home() {
   const [product,setProduct] = useState([]);
@@ -32,56 +33,12 @@ export default function Home() {
         </div>
       </div>
       <div className="row">
-        {/* loop */}
+        
         {product.map((item)=>(
-        <div className="col-lg-4 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg={'/assets/uploads/'+ item.photo}>                        
-            <div className="ltn__banner-info">
-              <h3><Link to="/shop"> {item.product} </Link></h3>
-              <p> Great Deals Available</p>
-              <mark>{item.price}</mark>
-            </div>
+          <div className="col-lg-4 col-md-6">
+          <Product data={item}></Product>
           </div>
-        </div>
         ))}
-         {/* loop */}
-
-        {/* <div className="col-lg-4 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/3.jpg">                        
-            <div className="ltn__banner-info">
-              <h3><Link to="/shop">  Condos</Link></h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/7.jpg">                        
-            <div className="ltn__banner-info">
-              <h3><Link to="/shop">  Houses</Link></h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/8.jpg">                        
-            <div className="ltn__banner-info">
-              <h3><Link to="/shop">  Retail</Link></h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="assets/img/gallery/9.jpg">                        
-            <div className="ltn__banner-info">
-              <h3><Link to="/shop">  Villas</Link></h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   </div>
