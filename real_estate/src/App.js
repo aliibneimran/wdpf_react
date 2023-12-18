@@ -57,10 +57,7 @@ function App() {
             <Route path='/register' element={<Register></Register>}></Route>
             <Route path='/team' element={<Team></Team>}></Route>
             <Route path='/team-details' element={<TeamDetails></TeamDetails>}></Route>
-            <Route path='/wishlist' element={<Wishlist></Wishlist>}></Route>
-
-          
-           
+            <Route path='/wishlist' element={<Wishlist></Wishlist>}></Route>         
           </Route>
         </Routes>
       </BrowserRouter>
