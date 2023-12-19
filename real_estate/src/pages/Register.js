@@ -1,8 +1,28 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
 export default function Register() {
+    const [formData,setFormData]= useState({});
+    const changeHandler = (e)=> {
+        const name = e.target.name;
+        const value = e.target.value;
+        setFormData((val)=>({...val, [name]:value}))
+    }
+    // console.log(formData);
+    const submitHandler = (e)=> {
+        e.preventDefault();
+        if(formData.password != formData.confirmpassword){
+            alert("Password doesn't match");
+        }else{
+            axios.get("http://localhost:8080/registration",formData).then(
+                (res)=>{
+                    alert(res.data.msg);
+                }
+            )
+        }
+    }
   return (
       <div>
           {/* BREADCRUMB AREA START */}
@@ -39,12 +59,11 @@ export default function Register() {
                   <div className="row">
                       <div className="col-lg-6 offset-lg-3">
                           <div className="account-login-inner">
-                              <form action="#" className="ltn__form-box contact-form-box">
-                                  <input type="text" name="firstname" placeholder="First Name" />
-                                  <input type="text" name="lastname" placeholder="Last Name" />
-                                  <input type="text" name="email" placeholder="Email*" />
-                                  <input type="password" name="password" placeholder="Password*" />
-                                  <input type="password" name="confirmpassword" placeholder="Confirm Password*" />
+                              <form action="#" onSubmit={submitHandler} className="ltn__form-box contact-form-box">
+                                  <input type="text" name="name" onChange={changeHandler} placeholder="Name" />
+                                  <input type="text" name="email" onChange={changeHandler} placeholder="Email*" />
+                                  <input type="password" name="password" onChange={changeHandler} placeholder="Password*" />
+                                  <input type="password" name="confirmpassword" onChange={changeHandler} placeholder="Confirm Password*" />
                                   <label className="checkbox-inline">
                                       <input type="checkbox" defaultValue  className='mx-2'/>
                                       I consent to Herboil processing my personal data in order to send personalized marketing material in accordance with the consent form and the privacy policy.
