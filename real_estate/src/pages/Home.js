@@ -1,20 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Carosel from "../components/Carosel";
-import axios from "axios";
-import Product from "../components/Product";
 
 export default function Home() {
-  const [product, setProduct] = useState([]);
-  useEffect(() => {
-    getProduct();
-  }, [product]);
-  // console.log(product)
-  const getProduct = () => {
-    axios
-      .get("http://localhost:8080/allproducts", { crossdomain: true })
-      .then((res) => setProduct(res.data));
-  };
   return (
     <>
       <div>
@@ -33,11 +21,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row">
-              {product.map((item) => (
-                <div className="col-lg-4 col-md-6">
-                  <Product data={item}></Product>
-                </div>
-              ))}
+              
             </div>
           </div>
         </div>
