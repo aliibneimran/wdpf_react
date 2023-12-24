@@ -31,7 +31,7 @@ import Wishlist from './pages/Wishlist';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/build'>
         <Routes>
           <Route path='/' element={<Layout></Layout>}>
             <Route index element={<Home></Home>}></Route>

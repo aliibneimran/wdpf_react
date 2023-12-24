@@ -39,7 +39,7 @@ export default function Register() {
                   <div className="row">
                       <div className="col-lg-6 offset-lg-3">
                           <div className="account-login-inner">
-                              <form action="#" onSubmit={submitHandler} className="ltn__form-box contact-form-box">
+                              <form action="#" className="ltn__form-box contact-form-box">
                                   <input type="text" name="name" placeholder="Name" />
                                   <input type="text" name="email" placeholder="Email*" />
                                   <input type="password" name="password" placeholder="Password*" />
