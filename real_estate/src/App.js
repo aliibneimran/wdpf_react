@@ -31,7 +31,7 @@ import Wishlist from './pages/Wishlist';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/build'>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout></Layout>}>
             <Route index element={<Home></Home>}></Route>
@@ -50,7 +50,7 @@ function App() {
             <Route path='/order-tracking' element={<OrderTracking></OrderTracking>}></Route>
             <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
             <Route path='/portfolio-details' element={<PortfolioDetails></PortfolioDetails>}></Route>
-            <Route path='/product-details' element={<ProductDetails></ProductDetails>}></Route>
+            <Route path='/product-details/:id' element={<ProductDetails></ProductDetails>}></Route>
             <Route path='/shop' element={<Shop></Shop>}></Route>
             <Route path='/service' element={<Service></Service>}></Route>
             <Route path='/service-details' element={<ServiceDetails></ServiceDetails>}></Route>
